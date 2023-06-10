@@ -3,8 +3,6 @@ const fs = require('fs');
 const genREADME=require('./genREADME');
 
 
-
-
 inquirer
     .prompt([
         {
