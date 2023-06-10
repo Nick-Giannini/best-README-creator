@@ -1,58 +1,43 @@
 function genREADME(gitName, gitEmail, projName, projDescrp, projLicense, projDepend, projTest, projNTK, projContrib) {
     let content=`
-    ${gitName} ${gitEmail}, ${projName}, ${projDescrp}, ${projLicense}, ${projDepend}, ${projTest}, ${projNTK}, ${projContrib}
-#${projName}
+
+# ${projName}
 
 ## Description
 ${projDescrp}
 
 ## Table of Contents
 
-*[Installation](#installation)
-*[Usage](#usage)
-*[License](#license)
-*[Contributing](#contributing)
-*[Tests](#tests)
-*[Questions](#questions)
+*[Installation](#installation)\n
+*[Usage](#usage)\n
+*[License](#license)\n
+*[Contributing](#contributing)\n
+*[Tests](#tests)\n
+*[Questions](#questions)\n
 
 ## Installation
 
-To install the necessary dependencies, run the following command: ``` ${projDepend} ```
+To install the necessary dependencies run the following command:
+${projDepend}
 
 ## Usage
-
-
+${projNTK}
 
 ## License
-${projLicense}
+This project is licensed under the ${projLicense} license.
+
+## Contributing
+
+To contribute to this project please contact me at ${gitEmail}
+Also be aware that you must do the followed to contribute:${projContrib}
 
 
+## Tests
+${projTest}
 
+## Questions
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    `
-
-
-
-
+Contact me at ${gitEmail} or ${gitName}`;
 
 
 
